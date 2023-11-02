@@ -1,0 +1,33 @@
+/* Styling tabel */
+table {
+    border-collapse: collapse; /* Menggabungkan tepi sel */
+    width: 100%;
+    margin: 20px 0; /* Membuat jarak antara tabel dan konten di atasnya */
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2); /* Efek bayangan untuk tabel */
+  }
+  
+  /* Styling header tabel */
+  thead tr {
+    background-color: #aa539a; /* Warna latar belakang header */
+    color: white; /* Warna teks header */
+    font-weight: bold; /* Tebal teks header */
+  }
+  
+  thead tr td {
+    padding: 10px; /* Padding sel header */
+  }
+  
+  /* Styling sel dalam tabel */
+  tbody tr:nth-child(even) {
+    background-color: #f2f2f2; /* Warna latar belakang sel genap */
+  }
+  
+  tbody tr:hover {
+    background-color: #f5f5f5; /* Warna latar belakang saat dihover */
+  }
+  
+  tbody tr td {
+    padding: 10px; /* Padding sel dalam tabel */
+    border-bottom: 1px solid #ddd; /* Garis bawah setiap sel */
+  }
+  

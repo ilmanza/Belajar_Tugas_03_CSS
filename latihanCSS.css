@@ -1,0 +1,42 @@
+/* Styling hyperlink */
+a:link {
+    color: midnightblue; /* Warna teks hyperlink untuk tautan belum dikunjungi */
+    text-decoration: none; /* Menghapus garis bawah dari hyperlink */
+    transition: color 0.3s; /* Efek transisi perubahan warna saat dihover */
+  }
+  
+  a:visited {
+    color: green; /* Warna teks hyperlink untuk tautan yang telah dikunjungi */
+  }
+  
+  a:hover {
+    color: orange; /* Warna saat dihover */
+  }
+  
+  a:active {
+    color: darkcyan; /* Warna saat diklik */
+  }
+  /* Styling tombol */
+  .button {
+    border: none; /* Menghapus garis tepi tombol */
+    border-radius: 5px; /* Sudut bulat pada tombol */
+    background-color: midnightblue; /* Warna latar belakang tombol */
+    color: #fff; /* Warna teks tombol */
+    text-align: center; /* Pusatkan teks tombol */
+    font-size: 24px; /* Ukuran teks tombol */
+    padding: 10px 20px; /* Padding tombol */
+    cursor: pointer; /* Mengubah kursor saat dihover */
+    transition: background-color 0.3s, transform 0.2s; /* Efek transisi perubahan warna latar belakang dan transisi saat dihover */
+  }
+  /* Efek hover */
+  .button:hover {
+    background-color: orange; /* Warna latar belakang saat dihover */
+    transform: translateY(-2px); /* Efek mengangkat tombol sedikit saat dihover */
+  }
+  
+  /* Efek active */
+  .button:active {
+    background-color: #3e8e41; /* Warna latar belakang saat tombol diklik */
+    box-shadow: 0 3px #666; /* Efek bayangan saat diklik */
+    transform: translateY(1px); /* Efek tekan tombol sedikit saat diklik */
+  }  
